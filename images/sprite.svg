@@ -1,0 +1,33 @@
+<svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 29" id="ic_arr_hor">
+    <line x1="14.2489" y1="4.24109" x2="4.24114" y2="14.8048" stroke="currentColor" stroke-width="6" stroke-linecap="round" fill="none"></line>
+    <line x1="4.24264" y1="14.9199" x2="13.349" y2="24.0263" stroke="currentColor" stroke-width="6" stroke-linecap="round" fill="none"></line>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 24" id="ic_menu">
+    <rect width="34" height="5" rx="2.5" fill="currentColor"></rect>
+    <rect y="10" width="34" height="5" rx="2.5" fill="currentColor"></rect>
+    <rect y="19" width="34" height="5" rx="2.5" fill="currentColor"></rect>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 4" id="ic_minus">
+    <rect x="26" y="0.266602" width="3.46667" height="26" rx="1.73333" transform="rotate(90 26 0.266602)" fill="currentColor"></rect>
+    <rect x="26" y="0.266602" width="3.46667" height="26" rx="1.73333" transform="rotate(90 26 0.266602)" fill="currentColor"></rect>
+    <rect x="26" y="0.266602" width="3.46667" height="26" rx="1.73333" transform="rotate(90 26 0.266602)" fill="currentColor"></rect>
+    <rect x="26" y="0.266602" width="3.46667" height="26" rx="1.73333" transform="rotate(90 26 0.266602)" fill="currentColor"></rect>
+    <rect x="26" y="0.266602" width="3.46667" height="26" rx="1.73333" transform="rotate(90 26 0.266602)" fill="currentColor"></rect>
+    <rect x="26" y="0.266602" width="3.46667" height="26" rx="1.73333" transform="rotate(90 26 0.266602)" fill="currentColor"></rect>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26" id="ic_plus">
+    <rect x="11.2666" width="3.46667" height="26" rx="1.73333" fill="currentColor"></rect>
+    <rect x="11.2666" width="3.46667" height="26" rx="1.73333" fill="currentColor"></rect>
+    <rect x="11.2666" width="3.46667" height="26" rx="1.73333" fill="currentColor"></rect>
+    <rect x="11.2666" width="3.46667" height="26" rx="1.73333" fill="currentColor"></rect>
+    <rect x="11.2666" width="3.46667" height="26" rx="1.73333" fill="currentColor"></rect>
+    <rect x="11.2666" width="3.46667" height="26" rx="1.73333" fill="currentColor"></rect>
+    <rect x="26" y="11.2667" width="3.46667" height="26" rx="1.73333" transform="rotate(90 26 11.2667)" fill="currentColor"></rect>
+    <rect x="26" y="11.2667" width="3.46667" height="26" rx="1.73333" transform="rotate(90 26 11.2667)" fill="currentColor"></rect>
+    <rect x="26" y="11.2667" width="3.46667" height="26" rx="1.73333" transform="rotate(90 26 11.2667)" fill="currentColor"></rect>
+    <rect x="26" y="11.2667" width="3.46667" height="26" rx="1.73333" transform="rotate(90 26 11.2667)" fill="currentColor"></rect>
+    <rect x="26" y="11.2667" width="3.46667" height="26" rx="1.73333" transform="rotate(90 26 11.2667)" fill="currentColor"></rect>
+    <rect x="26" y="11.2667" width="3.46667" height="26" rx="1.73333" transform="rotate(90 26 11.2667)" fill="currentColor"></rect>
+  </symbol>
+</svg>

@@ -1,0 +1,565 @@
+@media print,
+(max-width: 1327px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .cont
+    {
+        padding: 0 40px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 32px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 50px 0;
+    }
+
+
+    header .cont
+    {
+        position: relative;
+
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+
+
+    header .logo img
+    {
+        width: 215px;
+    }
+
+
+    header .menu
+    {
+        position: absolute;
+        bottom: 0;
+        left: 40px;
+
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
+    header .contacts
+    {
+        width: 307px;
+        max-width: 100%;
+    }
+
+
+    header .consult_btn
+    {
+        margin-left: 16px;
+    }
+
+
+    header .phones
+    {
+        font-size: 14px;
+        line-height: 22px;
+
+        display: flex;
+
+        width: 100%;
+        margin-top: 16px;
+
+        justify-content: space-between;
+        order: 2;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    header .phones > * + *
+    {
+        margin-top: 0;
+    }
+
+
+    header .messengers
+    {
+        margin-left: 0;
+    }
+
+    header .messengers a + a
+    {
+        margin-left: 14px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .submit_btn
+    {
+        font-size: 22px;
+
+        padding: 44px 38px 39px;
+    }
+
+
+
+    /*-------------------
+        First section
+    ------------------*/
+    .first_section .cont
+    {
+        min-height: 0;
+        padding-top: 243px;
+        padding-bottom: 311px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 40px;
+    }
+
+
+    .first_section .bg
+    {
+        bottom: 0;
+    }
+
+
+
+    /*-----------------
+        Image block
+    -----------------*/
+    .image_block
+    {
+        margin-top: -235px;
+        margin-bottom: 114px;
+    }
+
+
+
+    /*-----------
+        Stats
+    -----------*/
+    .stats
+    {
+        margin-bottom: 112px;
+    }
+
+
+    .stats .block_head
+    {
+        position: relative;
+        z-index: 3;
+
+        margin-bottom: 0;
+
+        text-align: center;
+    }
+
+
+    .stats .img
+    {
+        position: relative;
+        bottom: 0;
+        left: 0;
+
+        height: auto;
+        margin: -16px auto 56px;
+    }
+
+
+    .stats .row
+    {
+        width: 100%;
+    }
+
+
+    .stats .col
+    {
+        width: calc(50% - 50px);
+    }
+
+
+    .stats .item + .item
+    {
+        margin-top: 48px;
+    }
+
+
+
+    /*-----------------------
+        Window production
+    -----------------------*/
+    .window_production
+    {
+        margin-bottom: 60px;
+        padding: 50px 0 104px;
+    }
+
+
+    .window_production .item .hover
+    {
+        font-size: 18px;
+        line-height: 24px;
+
+        margin-top: 24px;
+        padding: 32px 24px;
+
+        border-radius: 20px;
+    }
+
+    .window_production .item .hover li:before
+    {
+        top: 10px;
+    }
+
+
+
+    /*----------------
+        What do we
+    ----------------*/
+    .what_do_we
+    {
+        margin-bottom: 118px;
+    }
+
+
+    .what_do_we .block_head
+    {
+        margin-bottom: 69px;
+    }
+
+
+    .what_do_we .row
+    {
+        margin-bottom: -50px;
+        margin-left: -30px;
+    }
+
+    .what_do_we .row > *
+    {
+        width: calc(50% - 30px);
+        margin-bottom: 50px;
+        margin-left: 30px;
+    }
+
+
+    .what_do_we .item .thumb
+    {
+        width: 216px;
+        height: 197px;
+    }
+
+    .what_do_we .item .thumb + *
+    {
+        width: calc(100% - 216px);
+
+        align-self: center;
+    }
+
+
+    .what_do_we .consult_btn .btn
+    {
+        font-size: 22px;
+
+        padding: 44px 38px 39px;
+    }
+
+
+
+    /*-------------------
+        Our solutions
+    -------------------*/
+    .our_solutions
+    {
+        margin-bottom: 113px;
+    }
+
+
+    .our_solutions .row
+    {
+        width: 589px;
+        max-width: 100%;
+        margin-right: auto;
+        margin-bottom: -38px;
+        margin-left: auto;
+    }
+
+    .our_solutions .row > *
+    {
+        width: 100%;
+        margin-bottom: 38px;
+        margin-left: 0;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block
+    {
+        margin-bottom: 76px;
+        padding: 57px 0 55px;
+    }
+
+
+    .action_block .btn
+    {
+        font-size: 22px;
+
+        margin-top: 76px;
+        padding: 44px 38px 39px;
+    }
+
+
+    .action_block .img
+    {
+        right: 0;
+
+        width: 407px;
+        margin-right: 0;
+    }
+
+
+
+    /*------------------
+        What you get
+    ------------------*/
+    .what_you_get
+    {
+        margin-bottom: 108px;
+    }
+
+
+    .what_you_get .block_head
+    {
+        margin-bottom: 45px;
+    }
+
+
+    .what_you_get .row
+    {
+        width: 685px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+
+    .what_you_get .text
+    {
+        width: 100%;
+        margin-top: 29px;
+
+        text-align: center;
+
+        order: 2;
+    }
+
+
+    .what_you_get .data
+    {
+        width: 100%;
+        margin: 0;
+    }
+
+
+    .what_you_get .items
+    {
+        width: calc(100% + 58px);
+        margin: 86px -29px 0;
+    }
+
+
+    .what_you_get .items .item
+    {
+        width: 184px;
+        height: 184px;
+        margin: 0 29px;
+    }
+
+    .what_you_get .items .item:before
+    {
+        top: -15px;
+        left: -18px;
+
+        width: 258px;
+        height: 216px;
+    }
+
+    .what_you_get .items .item:nth-child(2):before
+    {
+        top: -16px;
+        left: -16px;
+
+        width: 260px;
+    }
+
+    .what_you_get .items .item:nth-child(3):before
+    {
+        top: -16px;
+        left: -16px;
+
+        width: 267px;
+    }
+
+    .what_you_get .items .item:nth-child(4):before
+    {
+        top: -16px;
+        left: -16px;
+
+        width: 216px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages
+    {
+        margin-bottom: 48px;
+        padding: 108px 0 97px;
+    }
+
+
+    .advantages .row
+    {
+        margin-bottom: -31px;
+    }
+
+    .advantages .row > *
+    {
+        min-width: 383px;
+        margin-bottom: 31px;
+    }
+
+
+    .advantages .item .val
+    {
+        font-size: 40px;
+
+        margin-bottom: 16px;
+        padding: 30px;
+    }
+
+    .advantages .item .desc
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*---------
+        Why
+    ---------*/
+    .why
+    {
+        margin-bottom: 70px;
+    }
+
+
+    .why .block_head
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .why .row
+    {
+        margin-bottom: -44px;
+        margin-left: -38px;
+    }
+
+    .why .row > *
+    {
+        width: calc(30% - 38px);
+        margin-bottom: 44px;
+        margin-left: 38px;
+    }
+
+    .why .row > *:nth-child(3n+2)
+    {
+        width: calc(40% - 38px);
+    }
+
+
+    .why .item .icon
+    {
+        width: 176px;
+        height: 176px;
+    }
+
+    .why .item .desc
+    {
+        padding: 32px 8px;
+    }
+
+
+
+    /*------------------
+        Consult form
+    ------------------*/
+    .consult_form
+    {
+        margin-bottom: 56px;
+    }
+
+
+
+    /*----------
+        News
+    ----------*/
+    .news
+    {
+        margin-bottom: 129px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding-bottom: 60px;
+    }
+
+
+    footer .qr
+    {
+        margin-top: -15px;
+        margin-right: 7px;
+        margin-left: auto;
+
+        order: 5;
+    }
+
+
+    footer .col_right
+    {
+        width: calc(100% - 200px);
+        margin-top: 33px;
+    }
+}

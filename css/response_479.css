@@ -1,0 +1,532 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 26px;
+    }
+
+
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        bottom: -30px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 16px;
+    }
+
+
+    .fancybox__content > .carousel__button.is-close
+    {
+        top: 12px;
+        right: 12px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .input
+    {
+        font-size: 15px;
+    }
+
+
+    .form .exp
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+    .form .submit_btn
+    {
+        font-size: 16px;
+    }
+
+
+    .form .agree
+    {
+        font-size: 12px;
+        line-height: 18px;
+
+        margin-top: 20px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .desc
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+
+    /*-------------------
+        First section
+    ------------------*/
+    .first_section .cont
+    {
+        padding-top: 98px;
+        padding-bottom: 162px;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 15px;
+        line-height: 25px;
+
+        margin-top: 20px;
+    }
+
+
+    .first_section .consult_btn
+    {
+        font-size: 16px;
+        line-height: 20px;
+
+        padding: 20px 28px;
+    }
+
+
+
+    /*-----------------
+        Image block
+    -----------------*/
+    .image_block
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .image_block img
+    {
+        border-radius: 12px;
+    }
+
+
+
+    /*-----------
+        Stats
+    -----------*/
+    .stats
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .stats .block_head
+    {
+        margin-bottom: 32px;
+
+        text-align: left;
+    }
+
+
+    .stats .col
+    {
+        width: 100%;
+    }
+
+    .stats .col + .col
+    {
+        margin-top: 24px;
+        margin-left: 0;
+    }
+
+
+    .stats .item
+    {
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+
+    .stats .item .val
+    {
+        font-size: 32px;
+    }
+
+
+
+    /*-----------------------
+        Window production
+    -----------------------*/
+    .window_production .item .btn
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .window_production .item .hover
+    {
+        font-size: 14px;
+        line-height: 22px;
+
+        margin-top: 16px;
+        padding: 20px;
+    }
+
+    .window_production .item .hover li:before
+    {
+        top: 9px;
+    }
+
+
+
+    /*----------------
+        What do we
+    ----------------*/
+    .what_do_we
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .what_do_we .item
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .what_do_we .item .thumb
+    {
+        width: 140px;
+    }
+
+    .what_do_we .item .thumb + *
+    {
+        width: calc(100% - 140px);
+    }
+
+
+    .what_do_we .consult_btn .btn
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-------------------
+        Our solutions
+    -------------------*/
+    .our_solutions
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .our_solutions .item
+    {
+        padding-top: 20px;
+        padding-left: 28px;
+    }
+
+    .our_solutions .item .number
+    {
+        font-size: 32px;
+        line-height: 64px;
+
+        width: 72px;
+        height: 64px;
+
+        border-radius: 0 16px 16px 0;
+    }
+
+    .our_solutions .item .text
+    {
+        font-size: 14px;
+        line-height: 22px;
+
+        min-height: 124px;
+        padding: 16px 16px 16px 60px;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .action_block .desc
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+    .action_block .btn
+    {
+        font-size: 16px;
+    }
+
+
+    .action_block .img
+    {
+        position: relative;
+
+        width: 240px;
+        margin: 40px auto 0;
+    }
+
+
+
+    /*------------------
+        What you get
+    ------------------*/
+    .what_you_get
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .what_you_get .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .what_you_get .data
+    {
+        overflow: hidden;
+
+        padding: 0 0 24px;
+
+        border-radius: 20px;
+    }
+
+
+    .what_you_get .data .title
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        border-radius: 0 0 20px 20px;
+    }
+
+
+    .what_you_get .data ul
+    {
+        margin-bottom: -12px;
+        margin-left: 0;
+        padding: 0 24px;
+    }
+
+    .what_you_get .data ul li
+    {
+        width: 100%;
+        margin-bottom: 12px;
+        margin-left: 0;
+    }
+
+
+    .what_you_get .text
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .advantages .row
+    {
+        margin: 0 0 -28px;
+    }
+
+    .advantages .row > *
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .advantages .item .val
+    {
+        font-size: 24px;
+
+        margin-bottom: 12px;
+        padding: 20px 28px;
+    }
+
+    .advantages .item .desc
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*---------
+        Why
+    ---------*/
+    .why
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .why .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .why .block_head .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        margin-top: 24px;
+    }
+
+
+    .why .item .icon
+    {
+        width: 152px;
+        height: 152px;
+        padding: 30px;
+    }
+
+    .why .item .desc,
+    .why .row > *:nth-child(3n+2) .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+
+    /*------------------
+        Consult form
+    ------------------*/
+    .consult_form
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    /*----------
+        News
+    ----------*/
+    .news
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .news .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .news .item
+    {
+        padding: 18px;
+
+        border-radius: 16px;
+    }
+
+
+    .news .item .name
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+
+    footer .qr
+    {
+        display: none;
+    }
+
+    footer .qr + .links
+    {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    footer .links,
+    footer .contacts
+    {
+        width: calc(50% - 12px);
+    }
+
+
+    footer .col_right
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 40px 28px;
+    }
+
+
+    .modal .form .submit_btn
+    {
+        font-size: 16px;
+
+        padding: 14px;
+
+        border-radius: 12px;
+    }
+}
