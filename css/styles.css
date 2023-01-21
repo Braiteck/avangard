@@ -1063,6 +1063,26 @@ header .consult_btn:hover
 
 
 
+.first_section.fs404
+{
+    display: flex;
+
+    flex: 1 0 auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.first_section.fs404 .cont
+{
+    min-height: 0;
+    padding: 174px 0 40px;
+}
+
+
+
 /*-----------------
     Image block
 -----------------*/
